@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+   <title>TaskX - To Do List</title>
+</head>
+<body>
+   <header>
+      <div class="top">
+         <img src="img/logo.svg" alt="TaskX" width="180" height="50">
+         <p>The to-do list that boosts your productivity!</p>
+      </div>
+   </header>
+   <main>
+      <div class="task-container">
+         <input type="text" placeholder="What do you want to do?" id="newtask">
+         <div class="controls">
+            <div class="task-filters">
+               <span class="active" id="all">All</span>
+               <span id="pending">Pending</span>
+               <span id="completed">Completed</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+         </div>
+         <ul class="task-box"></ul>
+      </div>
+   </main>
+</body>
+</html>
